@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#main {
+    height: 90%;
+    min-height: 90%;
+}
+
+header {
+    height: 10%;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+}
+
+section {
+    width: 100%;
+    padding: 0 40px;
+}
+
+#title {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+#img-caption {
+    text-align: center;
+    padding-top: 5px;
+}
+
+#tribute-info {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#tribute-link {
+    color: palevioletred;
+    float: right;
+}
+
+footer {
+    height: 5%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.more-links{
+    text-decoration: none;
+    margin-top: 5px;
+    padding: 5px;
+    color: #a5a5a5;
+}
