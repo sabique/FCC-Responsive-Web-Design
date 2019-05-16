@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+#main {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 1080px;
+    height: 70px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: 1;
+    background-color: yellow;
+}
+
+#header #header-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 5px 0 5px 25px;
+}
+
+#header > #nav {
+    text-align: right;
+    padding: 25px 30px 0 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    margin-left: 20px;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #000;
+}
+
+.container {
+    padding-top: 85px;
+}
+
+#div-video {
+    width: 100%;
+    text-align: center;
+}
+
+#video {
+    border: none;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#about, #release, #cast  {
+    line-height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: yellow;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+footer > #form {
+    padding-top: 10px;
+}
+
+footer > #form > input[type="email"] {
+    width: 250px;
+    height: 25px;
+    margin: 0;
+}
+
+footer > #form > input[type="submit"] {
+    width: 75px;
+    height: 30px;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+@media (max-width: 600px) {
+    #main {
+        width: 480px;
+        margin: 0 auto;
+    }
+}
