@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technical Documentation Page</title>
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <main id="main-doc">
+        <nav id="navbar">
+            <header>
+                React JS
+            </header>
+            <a href="#React" class="nav-link">React</a>
+            <a href="#Installation" class="nav-link">Installation</a>
+            <a href="#Documentation" class="nav-link">Documentation</a>
+            <a href="#Examples" class="nav-link">Examples</a>
+            <a href="#Contributing" class="nav-link">Contributing</a>
+        </nav>
+        <section class="main-section" id="React">
+            <header>
+                React
+            </header>
+            <p>React is a JavaScript library for building user interfaces.</p>
+            <ul>
+                <li>
+                    <strong>Declarative:</strong> React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable, simpler to understand, and easier to debug.
+                </li>
+                <li>
+                    <strong>Component-Based:</strong> Build encapsulated components that manage their own state, then compose them to make complex UIs. Since component logic is written in JavaScript instead of templates, you can easily pass rich data through your app and keep state out of the DOM.
+                </li>
+                <li>
+                    <strong>Learn Once, Write Anywhere:</strong> We don't make assumptions about the rest of your technology stack, so you can develop new features in React without rewriting existing code. React can also render on the server using Node and power mobile apps using React Native.
+                </li>
+            </ul>
+        </section>
+        <section class="main-section" id="Installation">
+            <header>
+                Installation
+            </header>
+            <p>React has been designed for gradual adoption from the start, and you can use as little or as much React as you need:</p>
+            <ul>
+                <li>Use Online Playgrounds to get a taste of React.</li>
+                <li>Add React to a Website as a <code>script</code> tag in one minute.</li>
+                <li>Create a New React App if you're looking for a powerful JavaScript toolchain.</li>
+            </ul>
+            <p>You can use React as a <code>script</code> tag from a CDN, or as a react package on npm.</p>
+        </section>
+        <section class="main-section" id="Documentation">
+            <header>
+                Documentation
+            </header>
+            <p>You can find the React documentation on the website.</p>
+            <p>Check out the Getting Started page for a quick overview.</p>
+            <p>The documentation is divided into several sections:</p>
+            <ul>
+                <li>Tutorial</li>
+                <li>Main Concepts</li>
+                <li>Advanced Guides</li>
+                <li>API References</li>
+                <li>Where to Get Support</li>
+                <li>Contributing Guide</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Examples">
+            <header>
+                Examples
+            </header>
+            <p>We have several examples on the website. Here is the first one to get you started:</p>
+            <code>
+                function HelloMessage({ name }) {
+                    return <div>Hello {name}</div>;
+                }
+            </code>
+            <code>
+                ReactDOM.render(
+                    <HelloMessage name="Taylor" />,
+                    document.getElementById('container')
+                );
+            </code>
+            <p>This example will render "Hello Taylor" into a container on the page.</p>
+            <p>
+                You'll notice that we used an HTML-like syntax; we call it JSX. JSX is not required to use React, 
+                but it makes code more readable, and writing it feels like writing HTML. If you're using React as 
+                a <code>script</code> tag, read this section on integrating JSX; otherwise, the recommended JavaScript 
+                toolchains handle it automatically.
+            </p>
+        </section>
+        <section class="main-section" id="Contributing">
+            <header>
+                Contributing
+            </header>
+            <p>
+                The main purpose of this repository is to continue to evolve React core, making it faster and easier to use. 
+                Development of React happens in the open on GitHub, and we are grateful to the community for contributing bugfixes 
+                and improvements. Read below to learn how you can take part in improving React.
+            </p>
+        </section>
+        
+    </main>    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
